@@ -38,6 +38,7 @@ public class ClienteController
     @GetMapping("/saludo")
 	public String saludo(){
 		LOGGER.info("row1");
+		LOGGER.info("row2");
 		return "saludo";
 	}
 }

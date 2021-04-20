@@ -37,6 +37,7 @@ public class ClienteController
     
     @GetMapping("/saludo")
 	public String saludo(){
+		OGGER.info("row1");
 		return "saludo";
 	}
 }

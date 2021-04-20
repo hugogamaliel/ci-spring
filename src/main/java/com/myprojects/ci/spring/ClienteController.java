@@ -26,6 +26,7 @@ public class ClienteController
     @GetMapping("/greeting")
     public String greeting(){
         LOGGER.info("line 1");
+        LOGGER.info("row2");
         return "hello";
     }
     

@@ -25,7 +25,6 @@ public class ClienteController
 {
     @GetMapping("/greeting")
     public String greeting(){
-       
         return "hello";
     }
     

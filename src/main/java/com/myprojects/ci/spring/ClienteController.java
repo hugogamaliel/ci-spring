@@ -27,6 +27,7 @@ public class ClienteController
     public String greeting(){
         LOGGER.info("line 1");
         LOGGER.info("row2");
+        LOGGER.info("row3");
         return "hello";
     }
     

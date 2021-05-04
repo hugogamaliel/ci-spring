@@ -6,7 +6,7 @@ install: true
 addons:
   sonarcloud:
     organization: "hugogamaliel"
-    token: "oXhs4wmz+m0xTjH/2WRPfb8YOhTFaHBlozgvp9zJTec2ZkhGmiH2M8Uh9CLIVkAevwTvh0v+xWhbDsYsqgDJ1SqSs/rP3WkX50xcVXMgyrO1QJCPJW4TU6TNNGw9FylL/04UgM6Ac+aR1Swm/Tm+lverWTGPaj+z5uxqRCP1SjjmXtO7xJ6zcSl5iIUwGNp9tigc55HuW1tbhX0L9WCUGJMqwCTYlvWUmNjK4y9pieAqUurtCgYb8jxM6Hh+lvYGcl5lLPnoffRDSpNmHNLvs3mKGvAFoDWTupK85+4YLLoX5INbb1Wn4LNvXuO3WZPsSzsLCrF2Sjnp3r8C4ynEORd1C1kgb78le5PtXROojle2SNxE0hTxqnB/FRmXLQl8ewoabvJjsA5UpGVvRWT8cK2kiW+S52wESqGUnksOELm148ZUbNW0PIrm3UnOcbb8yZ9+FGM/Cn/K97wHXgFcdhXpv4o7i5AzDynnxcp/xT7F3RXivUJiGiQ3SfgVfotcDi31viNyKjOmUU2vVFUkwYodVTe1tr07z+N92iTWRS/vWFDXKQlR/aZckSKhqTMXsle9AXDPajGsm6wgoZKC62S2BVR4iqekRfHJp57zoItvq4fDsM08U2wwL0+e56iZyaYA9NVS1PZqe3aeBAq9yLYNYm/5fazalVC79Wj9JzE="
+    token: "8335c545c09b820476029160b49f8c323519f89c"
       # secure:   encrypted value of your token
 
 script:

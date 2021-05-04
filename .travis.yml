@@ -1,1 +1,11 @@
 language: java
+
+addons:
+  sonarcloud:
+    organization: "hugogamaliel"
+    token:
+      secure: "OJMhBg/0E6QzV3KyDCb8uzGl+FVrK2BHihgjJ3SM+uG9fGENgN/knCFFLo3aGZmXZLyrLfTmzKmYZmwYm4l8Wq+jw9mB2gAHOHKaoelb3e00TlY+7deZJaeMQ12njARsvbp3l/YE2j5qlyEIIUtG5VvNz/4FxZtjLV+cOiiSYoYU1W2J0LL6ZZu31Pcr67fbnIxyZaxaRbFg8K0IWCsQPASDA6+NGxLRoFN3lDm3hhg0e/FT/jzDrO3DUGTv+VHrJKvoOa8+6+u6cX8QJIJsItm4bE3HvcWB0tLf63LIBjyYmBfOID8xztgs3Uw3THJnmh9t5lUUdGPvkm5RfyNQWG1YuFmJgIE9w/960Epq63t5QaKGGOGvThIl2ktDQph1bBgpSWcgMqUXxNrOCJoWOi+geJKa4xbCXoZlJ9Sno+GdKRsINiL+lZJbUZwfmrnGMfE9Qrp+dTrY+bF1xD37kUN/OV3tInMzo9E8NWQKyufEkZCB+obv0l5CACcwYUqHD/xUqJQPiz714etjC33ymXWKHGCVhCEJxRYOfxNOR2k3c4Tr1Q2BkQLNcUn9YOAI3Tr7iNlRCU14AcjWGXlt0orxUE3KFf+htaJoNofR8Zcuv4skZig=" # encrypted value of your token
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar

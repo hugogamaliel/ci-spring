@@ -29,9 +29,9 @@ public class ClienteController
     @GetMapping("/greeting")
     public String greeting(){
         LOGGER.info("line 1");
-        LOGGER.info("row2");
-        LOGGER.info("row3");
-        LOGGER.info("row4");
+        LOGGER.info("//");
+        LOGGER.info("//");
+        LOGGER.info("//");
         return "hello";
     }
     

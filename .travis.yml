@@ -6,8 +6,7 @@ install: true
 addons:
   sonarcloud:
     organization: "hugogamaliel"
-    token: "8335c545c09b820476029160b49f8c323519f89c"
-      # secure:   encrypted value of your token
+    token: "8335c545c09b820476029160b49f8c323519f89c" # encrypted value of your token
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis

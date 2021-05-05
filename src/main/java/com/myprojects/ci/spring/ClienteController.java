@@ -41,6 +41,7 @@ public class ClienteController
 		LOGGER.info("row2");
                 LOGGER.info("row3");
                 LOGGER.info("row4");
+                LOGGER.info("row5");
 		return "saludo";
 	}
 }
